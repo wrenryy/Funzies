@@ -1,0 +1,32 @@
+.intro{
+    text-decoration: none;
+    h3 {
+        color: $white;
+        font-size: 3.5em;
+        font-weight: 600;
+        line-height: 1;
+        padding-bottom: .5em;
+        margin: 0 0 0.142857143em;
+        transition: color .45s ease, border .45s ease;
+    }
+
+    h4 {
+        color: $white;
+        text-transform: uppercase;
+        font-size: 1.125em;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 0.1em;
+        margin: 0 0 1.777777778em;
+        transition: color .45s ease;
+    }
+
+    p {
+        color: $white;
+        font-weight: 600;
+        line-height: 1.8;
+        margin: 0 0 1.25em;
+        transform: translateY(-1em);
+        transition: opacity .45s ease, transform .5s ease;
+    }
+}

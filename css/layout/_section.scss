@@ -1,0 +1,86 @@
+//section
+.section {
+    padding: 120px 0px;
+  
+    .right-text {
+      align-self: center;
+  
+      p {
+        margin-bottom: 40px;
+        color: $white;
+      }
+    }
+
+      ul {
+      float: right;
+          li {
+              display: inline;
+              width: 50%;
+          }
+      }
+    
+  }
+
+@media (max-width: 765px) {
+  .section {
+    padding: 20px 0px 120px 0px;
+  }
+}
+
+//containers
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+
+  //row
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  //col
+  .col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
